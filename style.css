@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+
+}
+.main img{
+position: relative;
+height: 700px;
+width: 1380px;
+
+}
+.plane img{
+position: relative;
+width: 318px;
+height: 176px;
+bottom: 598px;
+right: 110px;
+animation: plane 5s linear 0s infinite;
+
+}
+@keyframes plane {
+from{
+transform: translateX(0px) translateY(0px) rotate(2deg);
+}
+to{
+    transform: translateX(800px) translateY(300px) rotatez(-6deg);
+}
+}
